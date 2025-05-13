@@ -1,0 +1,162 @@
+{
+    "sidebar": {
+      "about": "About",
+      "experience": "Esperienza",
+      "education": "Educazione",
+      "skills": "Competenze",
+      "contacts": "Contatti"
+    },
+    "about": {
+      "title": "Backend Software Engineer",
+      "location": "Italia",
+      "email": "nicolopietrobelcastro@gmail.com",
+      "bio": "Sono un Backend Software Engineer con un forte entusiasmo per lo sviluppo software. Amo apprendere nuove tecnologie, esplorare soluzioni innovative e migliorare continuamente le mie competenze per fornire sistemi efficienti e di impatto.",
+      "languages": [
+        {
+          "name": "Italiano",
+          "level": "Madrelingua"
+        },
+        {
+          "name": "Inglese",
+          "level": "B2"
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Contattami",
+      "name": "Nome e Cognome",
+      "email": "Indirizzo Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia Messaggio",
+      "success": "Messaggio inviato con successo!",
+      "error": "Errore nell'invio del messaggio. Per favore riprova più tardi."
+    },
+    "experiences": [
+      {
+        "title": "Backend Software Engineer",
+        "company": "Mollie BV",
+        "location": "Milano, Italia",
+        "date": "2024-oggi",
+        "descriptions": [
+          {
+            "description": "Progettazione e sviluppo di microservizi utilizzando SpringBoot e Java 21+."
+          },
+          {
+            "description": "Progettazione e sviluppo di API REST utilizzando PHP 8."
+          },
+          {
+            "description": "Collaborate with cross-functional teams to analyze requirements, define services contracts, ecc."
+          }
+        ]
+      },
+      {
+        "title": "Backend Software Engineer",
+        "company": "Telepass Spa",
+        "location": "Milano, Italia",
+        "date": "2020-2024",
+        "descriptions": [
+          {
+            "description": "Progettazione e sviluppo di microservizi utilizzando Quarkus e Java 22."
+          },
+          {
+            "description": "Implementazione di API RESTful e API reattive utilizzando Kafka e Avro."
+          },
+          {
+            "description": "Collaborazione con team cross-funzionali per analisi requisiti e definizione contratti APIs."
+          }
+        ]
+      },
+      {
+        "title": "Technical Support Engineer",
+        "company": "Blusys",
+        "location": "Milano, Italia",
+        "date": "2019-2020",
+        "descriptions": []
+      },
+      {
+        "title": "Network Engineer",
+        "company": "British Telecom",
+        "location": "Milano, Italia",
+        "date": "2016-2019",
+        "descriptions": []
+      },
+      {
+        "title": "Technical Support Engineer",
+        "company": "F1 Consulting&Services",
+        "location": "Milano, Italia",
+        "date": "2014-2016",
+        "descriptions": []
+      }
+    ],
+    "education": {
+      "title": "Educazione",
+      "titles": [
+        {
+          "degree": "Laurea Triennale in Ingegneria Informatica",
+          "institution": "UTIU",
+          "vote": "",
+          "date": "2022 - ongoing"
+        },
+        {
+          "degree": "Diploma di Maturità - Perito Informatico",
+          "institution": "IIS Luigi Galvani - Milano",
+          "vote": "84/100",
+          "date": "2014"
+        }
+      ]
+    },
+    "skills": {
+        "title": "Competenze",
+        "features": [
+            {
+              "name": "Java",
+              "description": "Esperto nel linguaggio di programmazione Java 21+, con esperienza nella creazione di applicazioni scalabili ed efficienti. Si tratta del mio linguaggio di programmazione principale e lo utilizzo quotidianamente."
+            },
+            {
+              "name": "Quarkus",
+              "description": "Esperienza nell'utilizzo del framework Quarkus 3.x per lo sviluppo di applicazioni cloud-native, sfruttando le sue funzionalità per prestazioni e produttività. È il framework con cui ho imparato a diventare uno sviluppatore backend."
+            },
+            {
+              "name": "SpringBoot",
+              "description": "Esperto nell'utilizzo di Spring Boot per la creazione di microservizi e API RESTful. Lo utilizzo nel mio lavoro attuale."
+            },
+            {
+              "name": "PHP",
+              "description": "Principiante nel linguaggio di programmazione PHP 8, con 6 mesi di esperienza di utilizzo nel mio lavoro attuale."
+            },
+            {
+              "name": "Kotlin",
+              "description": "Utilizzo Kotlin nell'ultima versione per costruire microservizi nel mio tempo libero."
+            },
+            {
+              "name": "Ktor",
+              "description": "Utilizzo Ktor per sviluppare microservizi leggeri e performanti, sfruttando le sue funzionalità per applicazioni server-side nel mio tempo libero."
+            },
+            {
+              "name": "Git",
+              "description": "Esperto nell'utilizzo di Git per il controllo di versione, inclusi branching, merging e collaborazione su progetti. Esperienza con piattaforme come GitHub e GitLab."
+            },
+            {
+              "name": "Docker",
+              "description": "Utilizzo Docker per la gestione e il deployment di applicazioni containerizzate. Sto ancora migliorando le mie competenze nell'uso avanzato di questa tecnologia."
+            },
+            {
+              "name": "Postman",
+              "description": "Utilizzo Postman per testare manualmente gli endpoint dopo averli scritti, garantendo il corretto funzionamento e il debugging."
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "Esperienza nell'utilizzo di PostgreSQL nel mio lavoro professionale, con un forte focus sulla progettazione e gestione di database. Inoltre, ho progettato numerosi database per progetti personali."
+            },
+            {
+              "name": "MySQL",
+              "description": "Utilizzo MySQL nella mia esperienza lavorativa attuale, con un focus sulla gestione e ottimizzazione di database per applicazioni aziendali."
+            },
+            {
+              "name": "MongoDB",
+              "description": "Sto ancora imparando MongoDB, ma ho progettato un database documentale per un progetto personale."
+            }
+        ]
+    }
+}

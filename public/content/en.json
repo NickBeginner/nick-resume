@@ -1,0 +1,162 @@
+{
+    "sidebar": {
+      "about": "About",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "contacts": "Contacts"
+    },
+    "about": {
+      "title": "Backend Software Engineer",
+      "location": "Italy",
+      "email": "nicolopietrobelcastro@gmail.com",
+      "bio": "I am a passionate Backend Software Engineer with a strong enthusiasm for software development. I thrive on learning new technologies, exploring innovative solutions, and continuously improving my skills to deliver impactful and efficient systems.",
+      "languages": [
+        {
+          "name": "Italian",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "B2"
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Contact Me",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again later."
+    },
+    "experiences": [
+      {
+        "title": "Backend Software Engineer",
+        "company": "Mollie BV",
+        "location": "Milan, Italy",
+        "date": "2024-present",
+        "descriptions": [
+          {
+            "description": "Design and develop microservices using SpringBoot and Java 21+."
+          },
+          {
+            "description": "Design and develop REST API using PHP 8."
+          },
+          {
+            "description": "Collaborate with cross-functional teams to analyze requirements, define services contracts, etc."
+          }
+        ]
+      },
+      {
+        "title": "Backend Software Engineer",
+        "company": "Telepass Spa",
+        "location": "Milan, Italy",
+        "date": "2020-2024",
+        "descriptions": [
+          {
+            "description": "Designed and developed microservices using Quarkus and Java 22."
+          },
+          {
+            "description": "Implemented RESTful APIs and reactive APIs using Kafka and Avro."
+          },
+          {
+            "description": "Collaborated with cross-functional teams to analyze requirements and define service contracts."
+          }
+        ]
+      },
+      {
+        "title": "Technical Support Engineer",
+        "company": "Blusys",
+        "location": "Milan, Italy",
+        "date": "2019-2020",
+        "descriptions": []
+      },
+      {
+        "title": "Network Engineer",
+        "company": "British Telecom",
+        "location": "Milan, Italy",
+        "date": "2016-2019",
+        "descriptions": []
+      },
+      {
+        "title": "Technical Support Engineer",
+        "company": "F1 Consulting&Services",
+        "location": "Milan, Italy",
+        "date": "2014-2016",
+        "descriptions": []
+      }
+    ],
+    "education": {
+      "title": "Education",
+      "titles": [
+        {
+          "degree": "Bachelor's Degree in Computer Engineering",
+          "institution": "UTIU",
+          "vote": "",
+          "date": "2022 - ongoing"
+        },
+        {
+          "degree": "High School diploma - Computer Science",
+          "institution": "IIS Luigi Galvani - Milan",
+          "vote": "84/100",
+          "date": "2014"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "features": [
+        {
+          "name": "Java",
+          "description": "Proficient in Java 21+ programming language, with experience in building scalable and efficient applications. Is my main programming language and i use it daily."
+        },
+        {
+          "name": "Quarkus",
+          "description": "Experienced in using Quarkus 3.x framework for developing cloud-native applications, leveraging its features for performance and productivity. It is the framework where i learned how to be a backend developer."
+        },
+        {
+          "name": "SpringBoot",
+          "description": "Skilled in using Spring Boot for building microservices and RESTful APIs. I use it for my current job."
+        },
+        {
+          "name": "PHP",
+          "description": "Beginner in PHP 8 programming language, with 6 months of experience using it in my current job."
+        },
+        {
+          "name": "Kotlin",
+          "description": "Using the latest version of Kotlin to build microservices in my free time."
+        },
+        {
+          "name": "Ktor",
+          "description": "Using Ktor to develop lightweight and high-performance microservices, leveraging its features for server-side applications in my free time."
+        },
+        {
+          "name": "Git",
+          "description": "Proficient in using Git for version control, including branching, merging, and collaborating on projects. Experienced with platforms like GitHub and GitLab."
+        },
+        {
+          "name": "Docker",
+          "description": "Using Docker for managing and deploying containerized applications. Still improving my skills in advanced usage of this technology."
+        },
+        {
+          "name": "Postman",
+          "description": "Using Postman to manually test endpoints after writing them, ensuring proper functionality and debugging."
+        },
+        {
+          "name": "PostgreSQL",
+          "description": "Experienced in using PostgreSQL in my professional work, with a strong focus on designing and managing databases. Additionally, I have designed numerous databases for personal projects."
+        },
+        {
+          "name": "MySQL",
+          "description": "Using MySQL in my current work experience, with a focus on managing and optimizing databases for business applications."
+        },
+        {
+          "name": "MongoDB",
+          "description": "Still learning MongoDB, but I have designed a document-based database for a personal project."
+        }
+      ]
+    }
+}
