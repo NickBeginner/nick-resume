@@ -1,16 +1,55 @@
 <template>
   <main class="min-h-screen">
-    <div class="flex h-screen">
-      <div class="w-64 shrink-0 h-full">
+    <div class="flex flex-col md:flex-row h-screen">
+      <!-- Burger menu button (visible on mobile only) -->
+      <button
+        class="md:hidden fixed top-4 left-4 z-50 p-2 bg-gray-800 text-white rounded"
+        @click="sidebarOpen = true"
+        aria-label="Open sidebar"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <!-- Sidebar: hidden on mobile, visible on desktop -->
+      <div class="hidden md:block w-full md:w-64 shrink-0 h-auto md:h-full">
         <Sidebar 
           :active-section="currentSection" 
           @change-section="changeSection"
         />
       </div>
-      
+
+      <!-- Sidebar Drawer for mobile -->
+      <Transition name="fade">
+        <div
+          v-if="sidebarOpen"
+          class="fixed inset-0 z-40 flex"
+        >
+          <!-- Overlay -->
+          <div class="fixed inset-0 bg-black bg-opacity-40" @click="sidebarOpen = false"></div>
+          <!-- Drawer -->
+          <div class="relative w-64 bg-gray-800 text-white h-full z-50">
+            <button
+              class="absolute top-4 right-4 text-white"
+              @click="sidebarOpen = false"
+              aria-label="Close sidebar"
+            >
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+            <Sidebar 
+              :active-section="currentSection" 
+              @change-section="changeSection"
+            />
+          </div>
+        </div>
+      </Transition>
+
       <div class="flex-1 bg-gray-50 overflow-y-auto">
-        <div class="min-h-full flex items-center pl-8">
-          <div class="w-full max-w-3xl py-12 text-left">
+        <div class="flex flex-col justify-start md:justify-center items-center md:items-start min-h-full pl-0 md:pl-8">
+          <div class="w-full max-w-3xl py-8 md:py-12 text-left">
             <component 
               :is="currentComponent" 
               @open-skill="handleOpenSkill"
@@ -61,6 +100,7 @@
   const currentComponent = computed(() => sections[currentSection.value])
 
   const contentStore = useContentStore()
+  const sidebarOpen = ref(false)
 
   onMounted(() => {
     contentStore.loadContent('en')
@@ -68,10 +108,20 @@
 
   const changeSection = (section) => {
     currentSection.value = section
+    sidebarOpen.value = false
   }
 
   const handleOpenSkill = (skill) => {
     selectedSkill.value = skill
     showSkillModal.value = true
-  }
+}
 </script>
+
+<style>
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.2s;
+  }
+  .fade-enter-from, .fade-leave-to {
+    opacity: 0;
+  }
+</style>
