@@ -27,7 +27,7 @@
           class="fixed inset-0 z-40 flex"
         >
           <!-- Overlay -->
-          <div class="fixed inset-0 bg-black bg-opacity-40" @click="sidebarOpen = false"></div>
+          <div class="fixed inset-0 backdrop-blur-md transition-all duration-50" @click="sidebarOpen = false"></div>
           <!-- Drawer -->
           <div class="relative w-64 bg-gray-800 text-white h-full z-50">
             <button
