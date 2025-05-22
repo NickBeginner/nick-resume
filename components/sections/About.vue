@@ -8,9 +8,6 @@
       
       <div class="text-xl font-medium mb-8 text-gray-600">
         {{ contentStore.content.about.title }} · {{ contentStore.content.about.location }}
-        <a class="text-blue-600 hover:text-blue-700 cursor-pointer" href="mailto:{{ contentStore.content.about.email }}">
-          {{ contentStore.content.about.email }}
-        </a>
       </div>
       
       <p class="text-xl font-light mb-8 text-gray-700">

@@ -17,7 +17,6 @@ interface LanguageContent {
 interface AboutContent {
     title: string
     location: string
-    email: string
     bio: string
     languages: LanguageContent[]
 }
@@ -88,7 +87,6 @@ export const useContentStore = defineStore('content', () => {
     about: {
       title: '',
       location: '',
-      email: '',
       bio: '',
       languages: [
         {
