@@ -20,7 +20,7 @@
     <div class="p-6 flex-1 flex flex-col items-center justify-center">
       <div class="relative w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-xl mb-8">
         <nuxt-img
-          src="/profile.jpg"
+          src="/profile.png"
           alt="Profile"
           class="w-full h-full object-cover"
           :style="{ 'object-position': '50% 25%' }"
