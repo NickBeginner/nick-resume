@@ -56,12 +56,13 @@
         { id: 'about', label: 'About' },
         { id: 'experience', label: 'Experience' },
         { id: 'education', label: 'Education' },
-        { id: 'skills', label: 'Skills' }
+        { id: 'skills', label: 'Skills' },
+        { id: 'contacts', label: 'Contacts' }
       ]
     }
   })
 
-  const emit = defineEmits(['change-section', 'open-contact'])
+  const emit = defineEmits(['change-section'])
 
   const currentLanguage = ref('en')
   const contentStore = useContentStore()
@@ -76,10 +77,6 @@
   }
 
   const handleSectionChange = (sectionId: string) => {
-    if (sectionId === 'contacts') {
-      emit('open-contact')
-    } else {
-      emit('change-section', sectionId)
-    }
+    emit('change-section', sectionId)
   }
 </script>

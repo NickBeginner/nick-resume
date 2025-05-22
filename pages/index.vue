@@ -85,13 +85,15 @@
   import Experience from '~/components/sections/Experience.vue'
   import Education from '~/components/sections/Education.vue'
   import Skills from '~/components/sections/Skills.vue'
+  import Contacts from '~/components/sections/Contacts.vue'
   import ModalSkill from '~/components/ModalSkill.vue'
 
   const sections = {
     about: About,
     experience: Experience,
     education: Education,
-    skills: Skills
+    skills: Skills,
+    contacts: Contacts
   }
 
   const currentSection = ref('about')
